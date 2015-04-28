@@ -536,13 +536,26 @@ header a.button {
   right: 0;
   /* background: transparent url(../images/github-button.png) 0 0 no-repeat; */
 }
-aside a.button {
+aside a.buttonfb {
   display: block;
   width: 138px;
+  height:80;
+  padding-left: 64px;
+  margin-bottom: 20px;
+  padding-top: 50px;
+  font-size: 21px;
+  background: transparent url(../images/facebook_button-223x73copy.png) 0 0 no-repeat;
+}
+
+aside a.buttontw {
+  display: block;
+  height:80;
+  width: 138px;
+  padding-top: 50px;
   padding-left: 64px;
   margin-bottom: 20px;
   font-size: 21px;
-  background: transparent url(../images/download-button.png) 0 0 no-repeat;
+  background: transparent url(../images/followusontw33itterlogo.jpg) 0 0 no-repeat;
 }
 
 code, pre {
