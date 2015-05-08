@@ -20,9 +20,13 @@
 </script>
   </head>
 
-  <body>
-	  <script type="text/javascript">
-		window.location.replace(getURLParameter('url'));
+<body>
+	<script type="text/javascript">
+	var url=getURLParameter('url')
+	if(url != null)
+		window.location.replace(url);
+	else
+		window.location.replace("http://hoavt-54.github.io/IIIN/index.html")
 	</script>
 
     <div id="content-wrapper">
